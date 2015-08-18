@@ -1,5 +1,5 @@
 #!/bin/bash
 
-rm -rf public/*
-
+rm -rf public
+mkdir public
 cp -r src/* public/
