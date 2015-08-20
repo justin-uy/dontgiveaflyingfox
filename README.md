@@ -1,4 +1,3 @@
-# first-website
+# justinuy.com
 
-
-Well not actually, but this is a test...
+This will be the repo home to justinuy.com
