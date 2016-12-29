@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-require('./routes.js')(app);
+require('./hostRouter')(app);
 require('node-jsx').install();
 const port = 3000;
 
