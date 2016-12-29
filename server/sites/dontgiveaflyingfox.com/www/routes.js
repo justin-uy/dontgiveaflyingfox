@@ -1,3 +1,11 @@
+const indexController = require('./controllers/index');
+
 module.exports = (req, res) => {
-  res.send("Welcome to www.dontgiveaflyingfox.com! Site is under construction and will be finished some day.");
+  switch (req.url) {
+    case '/':
+      indexController.init(req, res);
+      break
+    default:
+      res.send('404');
+  }
 };
