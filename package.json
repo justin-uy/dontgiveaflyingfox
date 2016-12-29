@@ -1,0 +1,28 @@
+{
+  "name": "justinuy.com",
+  "version": "1.0.0",
+  "description": "my personal website that runs on nginx, express.js, and isomorphic react",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justin-uy/justinuy.com.git"
+  },
+  "keywords": [
+    "justin",
+    "uy",
+    "just",
+    "intrigue",
+    "us",
+    "justintrigue.us",
+    "justinuy.com"
+  ],
+  "author": "justin uy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justin-uy/justinuy.com/issues"
+  },
+  "homepage": "https://github.com/justin-uy/justinuy.com#readme"
+}
