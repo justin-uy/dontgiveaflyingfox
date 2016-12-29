@@ -1,4 +1,3 @@
-# justinuy.com
+# dontgiveaflyingfox.com
 
-This will be the repo home to justinuy.com
-With actual design and content!
+This will be the repo home to dontgiveaflyingfox.com
