@@ -11,7 +11,7 @@ module.exports = class HomePage extends React.Component {
       <div>
         <header>
           <Container>
-            <HeaderLeft heading="dont give a flying fox" subheading="creating since 2016" />
+            <HeaderLeft heading="dont give a flying fox" subheading="justin" />
             <HeaderRight
               links={[{
                 label: 'gallery',

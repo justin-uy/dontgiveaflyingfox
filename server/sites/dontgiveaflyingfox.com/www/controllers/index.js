@@ -7,7 +7,7 @@ module.exports = {
   init: (req, res) => {
     res.render('base.ejs', {
       title: 'dontgiveaflyingfox',
-      mountScript: '/js/dest/indexBundle.js',
+      mountScript: '/js/dest/dontgiveaflyingfox.com/www/indexBundle.js',
       pageContent: ReactDOMServer.renderToString(<HomePage />)
     });
   }
