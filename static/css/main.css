@@ -210,33 +210,33 @@ body {
 }
 
 
-.header {
+header {
   height: 120px;
 }
 
-.header .header-left {
+header .header-left {
   float: left;
 }
 
-.header .header-left h1 {
+header .header-left h1 {
   margin-bottom: 0px;
 }
 
-.header .header-left h3 {
+header .header-left h3 {
   margin-top: 0px;
 }
 
-.header .header-right {
+header .header-right {
   float: right;
   margin: 20px 0;
 }
 
-.header .header-right li {
+header .header-right li {
   display: inline-block;
   padding: 10px;
 }
 
-.header .header-right li:hover {
+header .header-right li:hover {
   border-bottom: 2px solid black;
 }
 
