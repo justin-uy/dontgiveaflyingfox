@@ -10,7 +10,8 @@ module.exports = class ViewContainer extends React.Component {
     this._incrementCount = this._incrementCount.bind(this);
   }
 
-  _incrementCount() {
+  _incrementCount(e) {
+    e.preventDefault();
     this.setState({
       count: this.state.count++
     });
