@@ -240,6 +240,13 @@ header .header-right li:hover {
   border-bottom: 2px solid black;
 }
 
+header .header-right li a,
+header .header-right li a:hover,
+header .header-right li a:visited {
+  color: black;
+  text-decoration: none;
+}
+
 .image-gallery {
   margin-top: 20px;
   text-align: center;
