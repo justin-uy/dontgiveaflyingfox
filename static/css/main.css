@@ -263,6 +263,17 @@ header .header-right li a:visited {
   width: 290px;
 }
 
+.selected-gallery-item {
+  background: gray;
+  box-sizing: border-box;
+  color: white;
+  font-size: 24px;
+  height: 500px;
+  padding: 150px;
+  text-align: center;
+  width: 100%;
+}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
