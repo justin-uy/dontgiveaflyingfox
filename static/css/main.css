@@ -190,6 +190,72 @@ h1 > span:hover {
     opacity: .5;
 }
 
+body {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 20px;
+  width: 100%;
+}
+
+.dark-container {
+  background: black;
+  color: white;
+  margin: 20px 0px;
+  padding: 20px;
+}
+
+
+.header {
+  height: 120px;
+}
+
+.header .header-left {
+  float: left;
+}
+
+.header .header-left h1 {
+  margin-bottom: 0px;
+}
+
+.header .header-left h3 {
+  margin-top: 0px;
+}
+
+.header .header-right {
+  float: right;
+  margin: 20px 0;
+}
+
+.header .header-right li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.header .header-right li:hover {
+  border-bottom: 2px solid black;
+}
+
+.image-gallery {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.image-container {
+  display: inline-block;
+  margin: 20px 20px 10px 20px;
+}
+
+.image {
+  background: gray;
+  height: 200px;
+  width: 290px;
+}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.

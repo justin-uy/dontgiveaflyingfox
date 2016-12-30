@@ -1,11 +1,11 @@
 const React = require('react');
-const HeaderLeft = require('./HeaderLeft.react');
-const HeaderRight = require('./HeaderRight.react');
-const ImageGallery = require('./ImageGallery.react');
-const DarkContainer = require('./DarkContainer.react');
-const Container = require('./Container.react');
+const HeaderLeft = require('../HeaderLeft.react');
+const HeaderRight = require('../HeaderRight.react');
+const ImageGallery = require('../ImageGallery.react');
+const DarkContainer = require('../DarkContainer.react');
+const Container = require('../Container.react');
 
-module.exports = class HomePage extends React.Component {
+module.exports = class ViewContainer extends React.Component {
   // This will be stateful after the layout is correct
   render() {
     return (

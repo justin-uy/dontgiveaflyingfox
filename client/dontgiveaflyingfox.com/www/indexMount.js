@@ -1,8 +1,8 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
-const ViewContainer = require('../../../shared/components/ViewContainer.react');
+const HomePage = require('../../../shared/components/www/HomePageContainer.react');
 
 ReactDOM.render(
-  <ViewContainer />,
+  <HomePage />,
   document.getElementById('mount')
 );
