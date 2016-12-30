@@ -16,6 +16,7 @@ module.exports = (app) => {
         janeSiteRoutes(req, res);
         break;
       case 'www':
+      case 'localhost:3000':
         wwwSiteRoutes(req, res);
         break;
       default:

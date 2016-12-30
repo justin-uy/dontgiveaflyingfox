@@ -4,7 +4,7 @@ module.exports = (req, res) => {
   switch (req.url) {
     case '/':
       indexController.init(req, res);
-      break
+      break;
     default:
       res.send('404');
   }
