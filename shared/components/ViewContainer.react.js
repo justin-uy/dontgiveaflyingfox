@@ -13,7 +13,7 @@ module.exports = class ViewContainer extends React.Component {
   _incrementCount(e) {
     e.preventDefault();
     this.setState({
-      count: this.state.count++
+      count: this.state.count + 1
     });
   }
 
