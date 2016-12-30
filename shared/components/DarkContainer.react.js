@@ -2,8 +2,8 @@ const React = require('react');
 
 module.exports = (props) => {
   return (
-    <div class="dark-container">
-      <div class="container">
+    <div className="dark-container">
+      <div className="container">
         {props.children}
       </div>
     </div>
