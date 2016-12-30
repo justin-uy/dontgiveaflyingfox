@@ -6,6 +6,7 @@ const inputBasePath = './client/';
 [
   'dontgiveaflyingfox.com/www/indexMount.js',
   'dontgiveaflyingfox.com/justin/indexMount.js'
+  'dontgiveaflyingfox.com/jane/indexMount.js'
 ].map((v, i) => {
   const pathSegments = v.split('/');
   let pathToDest = './static/js/dest';

@@ -10,7 +10,6 @@ module.exports = (app) => {
     // we want to support routing for different domain names
     switch (hostnameComponents[0]) {
       case 'justin':
-      case 'localhost:3000':
         justinSiteRoutes(req, res);
         break;
       case 'jane':
